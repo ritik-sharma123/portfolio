@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: #007bff;
+    z-index: 9999;
+    transition: width 0.2s;
+}
